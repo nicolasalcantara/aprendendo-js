@@ -1,6 +1,7 @@
 function rand(min, max) {
   min *= 1000;
   max *= 1000;
+  
   return Math.floor(Math.random() * (max - min) + min);
 }
 
@@ -48,8 +49,8 @@ async function executa() {
     console.log(fase3);
 
     console.log("Terminamos na fase", fase3);
-  } catch (e) {
-    console.log(e);
+  } catch (erro) {
+    console.log(erro);
   }
 }
 
