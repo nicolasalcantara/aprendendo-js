@@ -49,8 +49,8 @@ async function executa() {
     console.log(fase3);
 
     console.log("Terminamos na fase", fase3);
-  } catch (e) {
-    console.log(e);
+  } catch (erro) {
+    console.log(erro);
   }
 }
 
