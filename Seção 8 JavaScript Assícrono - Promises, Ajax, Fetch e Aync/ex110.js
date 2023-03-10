@@ -1,7 +1,7 @@
 function rand(min, max) {
   min *= 1000;
   max *= 1000;
-  
+
   return Math.floor(Math.random() * (max - min) + min);
 }
 
@@ -18,24 +18,6 @@ function esperaAi(msg, tempo) {
     }, tempo);
   });
 }
-
-// esperaAi("Fase 1", rand(0, 3))
-//   .then((valor) => {
-//     console.log(valor);
-//     return esperaAi("Fase 2", rand(0, 3));
-//   })
-//   .then((fase) => {
-//     console.log(fase);
-//     return esperaAi("Fase, 3", rand(0, 3));
-//   })
-//   .then((fase) => {
-//     console.log(fase);
-//     return fase;
-//   })
-//   .then((fase) => {
-//     console.log("Terminamos a fase", fase);
-//   })
-//   .catch((e) => console.log(e));
 
 async function executa() {
   try {
