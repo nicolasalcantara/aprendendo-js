@@ -1,21 +1,21 @@
 [
   {
-    "nome": "Miguel",
-    "email": "miguel@email.com.br",
-    "salario": 27211,
-    "estado": "MG",
+    "nome": "Nicolas",
+    "email": "nicolas@email.com.br",
+    "salario": 3500,
+    "estado": "SP",
     "empresa": "Facebook",
-    "idade": 34,
-    "sexo": "",
-    "cpf": "362.418.524-18"
+    "idade": 17,
+    "sexo": "M",
+    "cpf": "521.695.678-60"
   },
   {
-    "nome": "Sophia",
-    "email": "sophia@empresa.com.br",
-    "salario": 6971,
-    "estado": "DF",
-    "empresa": "Plastic Co.",
-    "idade": 25,
+    "nome": "Vitoria",
+    "email": "geyhya@empresa.com.br",
+    "salario": 3500,
+    "estado": "RJ",
+    "empresa": "Escola Desafio",
+    "idade": 17,
     "sexo": "F",
     "cpf": "742.316.671-52"
   },
