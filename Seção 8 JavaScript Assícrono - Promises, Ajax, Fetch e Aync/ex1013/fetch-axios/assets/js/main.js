@@ -8,6 +8,16 @@ fetch("pessoas.json")
 function carregaElementosNaPagina(json) {
   const table = document.createElement("table");
 
+  // const menoresdeIdade = json.filter((obj) => {
+  //   return obj.idade == 17;
+  // });
+
+  // const moramemSP = json.filter((obj) => {
+  //   return obj.estado == "SP";
+  // });
+
+  console.log(json);
+
   for (let pessoa of json) {
     const tr = document.createElement("tr");
 
